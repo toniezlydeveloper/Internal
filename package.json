@@ -1,0 +1,12 @@
+{
+  "name": "com.toniezlydeveloper.internal",
+  "version": "1.0.0",
+  "displayName": "Internal",
+  "description": "A set of useful scripts that makes development faster.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Adam Janikowski",
+    "email": "adam.janikowski99@gmail.com",
+    "url": "https://adam-janikowski.netlify.app/"
+  }
+}
