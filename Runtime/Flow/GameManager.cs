@@ -107,6 +107,8 @@ namespace Internal.Runtime.Flow
             
             if (newPanel != null)
                 newPanel.Enable();
+            
+            ExtendedDebug.Log($"Changing panel [{oldPanel}] to [{newPanel}]");
         }
 
         private void EnterState(Type stateType)
