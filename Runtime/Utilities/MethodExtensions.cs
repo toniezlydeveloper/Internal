@@ -11,5 +11,7 @@ namespace Internal.Runtime.Utilities
         public static void DestroySelf(this Component component) => Object.Destroy(component);
         
         public static float AbsoluteValue(this float value) => Mathf.Abs(value);
+        
+        public static float Clamp(this float value, float min, float max) => Mathf.Clamp(value, min, max);
     }
 }

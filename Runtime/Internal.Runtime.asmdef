@@ -2,7 +2,9 @@
     "name": "Internal.Runtime",
     "rootNamespace": "",
     "references": [
-        "DOTween.Modules"
+        "DOTween.Modules",
+        "Unity.TextMeshPro",
+        "Cinemachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

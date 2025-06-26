@@ -6,7 +6,7 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Internal.Runtime.Editor
+namespace Internal.Editor
 {
     public class ScenesHelperWindow : EditorWindow
     {

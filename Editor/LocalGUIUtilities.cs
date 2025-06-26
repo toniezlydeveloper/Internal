@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Internal.Runtime.Editor
+namespace Internal.Editor
 {
     public static class LocalGUIUtilities
     {
@@ -19,6 +19,8 @@ namespace Internal.Runtime.Editor
         public static void BeginScroll(ref Vector2 position) => position = GUILayout.BeginScrollView(position);
         
         public static void EndScroll() => GUILayout.EndScrollView();
+        
+        public static void DrawSprite(Sprite sprite) => GUI.DrawTexture(sprite.rect, sprite.texture);
         
         public static bool Button(string text, Func<bool> enableCallback = null)
         {

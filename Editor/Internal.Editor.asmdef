@@ -1,7 +1,9 @@
 {
     "name": "Internal.Editor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:101bb964efb49be478f8d438c873ba06"
+    ],
     "includePlatforms": [
         "Editor"
     ],
